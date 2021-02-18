@@ -1,0 +1,10 @@
+/* font-face for Supreme font */
+@font-face {
+    font-family: supremeFont;
+    src: url('/resources/fonts/Futura\ Bold\ Italic\ font.ttf');
+}
+
+.navbar-brand {
+    font-family: supremeFont;
+    color: white !important; /* Set precedence to override Bootstrap font color */
+}

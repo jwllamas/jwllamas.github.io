@@ -4,7 +4,55 @@
     src: url('/resources/fonts/Futura\ Bold\ Italic\ font.ttf');
 }
 
+h1 {
+    font-weight: bold;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 .navbar-brand {
     font-family: supremeFont;
     color: white !important; /* Set precedence to override Bootstrap font color */
+}
+
+body {
+    margin: 0px auto;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+}
+
+#home {
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+#about {
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+
+}
+
+#work {
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+
 }

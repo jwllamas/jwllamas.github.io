@@ -19,6 +19,9 @@ html {
     scroll-behavior: smooth;
 }
 
+.navbar-link {
+    mr-auto: true;
+}
 .navbar-brand {
     font-family: supremeFont;
     color: white !important; /* Set precedence to override Bootstrap font color */

@@ -4,7 +4,10 @@
     src: url('/resources/fonts/Futura\ Bold\ Italic\ font.ttf');
 }
 
-
+.container {
+    max-width: 100%;
+    
+}
 
 h1 {
     color: white;
